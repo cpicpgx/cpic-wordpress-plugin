@@ -1,0 +1,24 @@
+<table class="table table-striped" id="tableGuidelines">
+    <caption>Guideline data can be downloaded from the <a href="//www.pharmgkb.org/downloads/">PharmGKB Downloads page</a>.</caption>
+    <thead>
+    <tr>
+        <th style="width:20%;">Drug</th>
+        <th style="width:20%;">Gene</th>
+        <th style="width:60%;">Summary</th>
+    </tr>
+    </thead>
+    <tbody>
+{{#each this}}
+    <tr>
+        <td>{{#each relatedChemicals}}<div><a href="https://www.pharmgkb.org/chemical/{{id}}">{{name}}</a></div>{{/each}}</td>
+        <td>{{#each relatedGenes}}<div><a href="https://www.pharmgkb.org/gene/{{id}}">{{symbol}}</a></div>{{/each}}</td>
+        <td>
+            {{{summaryMarkdown.html}}}
+            {{#each xrefs}}
+            <p><em><a href="{{xrefId}}">read more</a></em></p>
+            {{/each}}
+        </td>
+    </tr>
+{{/each}}
+    </tbody>
+</table>

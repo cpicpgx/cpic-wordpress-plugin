@@ -1,0 +1,19 @@
+{{#each this}}
+<section id="{{publicationSet.id}}">
+    <header>
+      <strong>{{publicationSet.body}}</strong>
+    </header>
+    <ol style="margin-bottom:.5em;">
+    {{#each publicationSet.literature}}
+        <li value="{{position}}" class="pubSetList">
+            {{> citation}}
+        </li>
+    {{/each}}
+    </ol>
+    <div style="margin-bottom:2em;">
+      {{#each guidelinePages}}
+      See <a href="{{this}}">the guideline page</a> for information that may have been updated since publication.
+      {{/each}}
+    </div>
+</section>
+{{/each}}

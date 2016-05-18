@@ -1,0 +1,75 @@
+<table class="table table-striped" id="tableCpicPairs">
+  <thead>
+  <tr>
+    <th># <small>(n={{countGuidelines}})</small></th>
+    <th>Gene<br/><small style="white-space: nowrap;">(unique = {{countGenes}})</small></th>
+    <th>Drug<br/><small style="white-space: nowrap;">(unique = {{countDrugs}})</small></th>
+    <th>Guideline on PharmGKB</th>
+    <th>
+      CPIC <span style="white-space: nowrap;">Level
+      <a style="text-decoration: none;" href="https://www.pharmgkb.org/page/cpicStatusLegend"><i class="icon-question-sign"></i></a></span>
+    </th>
+    <th>
+      PharmGKB Level of <span style="white-space: nowrap;">Evidence
+      <a style="text-decoration: none;" href="https://www.pharmgkb.org/page/clinAnnLevels"><i class="icon-question-sign"></i></a></span>
+    </th>
+    <th>
+      PGx on FDA <span style="white-space: nowrap;">Label <a style="text-decoration: none;" href="https://www.pharmgkb.org/page/drugLabelLegend#PGxLevel"><i class="icon-question-sign"></i></a></span>
+    </th>
+    <th>CPIC Publications (PMID)</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  {{#if pairs}}
+  {{#each pairs}}
+  <tr id="dosingguideline-{{guidelineId}}">
+    {{!id}}
+    <td>
+      {{position}}
+    </td>
+
+    {{!gene}}
+    <td>
+      <a href="https://www.pharmgkb.org/gene/{{gene.id}}">{{gene.name}}</a>
+    </td>
+
+    {{!drug}}
+    <td>
+      <a href="https://www.pharmgkb.org/chemical/{{chemical.id}}">{{chemical.name}}</a>
+    </td>
+
+    {{!guideline}}
+    <td>
+      {{#if url}}<a href="{{url}}">Guideline</a>{{/if}}
+    </td>
+
+    {{!cpic level}}
+    <td>
+      {{cpicLevel}}
+    </td>
+
+    {{!PGKB LoE}}
+    <td>
+      {{pgkbLevel}}
+      {{{cpicNote}}}
+    </td>
+
+    {{!FDA Label PGx}}
+    <td>
+      {{#if label.id}}<a href="https://www.pharmgkb.org/label/{{label.id}}">{{label.name}}</a>{{/if}}
+    </td>
+
+    {{!PMIDs}}
+    <td>
+      {{litName}}
+      <ul class="unstyled">
+        {{#each pmids}}<li><a href="https://www.pharmgkb.org/pmid/{{this}}">{{this}}</a></li>{{/each}}
+      </ul>
+    </td>
+  </tr>
+  {{/each}}
+  {{/if}}
+  </tbody>
+
+</table>
