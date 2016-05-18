@@ -1,0 +1,22 @@
+{
+  "name": "cpic-wordpress-plugin",
+  "version": "1.0.0",
+  "description": "CPIC Wordpress Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PharmGKB/cpic-wordpress-plugin.git"
+  },
+  "author": "Ryan Whaley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PharmGKB/cpic-wordpress-plugin/issues"
+  },
+  "homepage": "https://github.com/PharmGKB/cpic-wordpress-plugin#readme",
+  "devDependencies": {
+    "handlebars": "^4.0.5"
+  }
+}
