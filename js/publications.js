@@ -1,5 +1,5 @@
 var _sortByName = function(o1, o2) {
-	return o1.publicationSet.body.localeCompare(o2.publicationSet.body);
+	return o1.publicationSet.title.localeCompare(o2.publicationSet.title);
 };
 
 var _positionCounter = 1;
@@ -21,7 +21,7 @@ jQuery(function($) {
 	$.getJSON('https://api.pharmgkb.org/v1/cpic/publications',
 		function(data) {
 			data.forEach(function(o) {
-				o.publicationSet.body = o.publicationSet.body.replace(/CPIC?\s/, '');
+				o.publicationSet.title = o.publicationSet.title.replace(/CPIC?\s/, '');
 			});
 
 			data.sort(_sortByName);
