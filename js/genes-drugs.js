@@ -11,7 +11,7 @@ Handlebars.registerHelper('isGuideline', function(c, o) {
 jQuery(function($) {
 	var getData = function() {
 		var deferred = $.Deferred();
-		$.getJSON('https://www.pharmgkb.org/download.do?objCls=common&objId=cpicPairs.json',
+		$.getJSON('https://s3.pgkb.org/data/cpicPairs.json',
 			function(data) {
 				$('#guidelineList').html(Handlebars.templates.pairs(data));
 				var $updated = $('#lastUpdated');
