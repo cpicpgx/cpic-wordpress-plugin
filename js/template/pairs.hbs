@@ -6,8 +6,7 @@
     <th>Drug<br/><small style="white-space: nowrap;">(unique = {{countDrugs}})</small></th>
     <th>Guideline</th>
     <th>
-      CPIC <span style="white-space: nowrap;">Level
-      <a style="text-decoration: none;" href="https://www.pharmgkb.org/page/cpicStatusLegend"><i class="icon-question-sign"></i></a></span>
+      CPIC <span style="white-space: nowrap;">Level</span>
     </th>
     <th>
       PharmGKB Level of <span style="white-space: nowrap;">Evidence
@@ -31,12 +30,12 @@
 
     {{!gene}}
     <td>
-      <a href="https://www.pharmgkb.org/gene/{{gene.id}}">{{gene.name}}</a>
+      {{gene.name}}
     </td>
 
     {{!drug}}
     <td>
-      <a href="https://www.pharmgkb.org/chemical/{{chemical.id}}">{{chemical.name}}</a>
+      {{chemical.name}}
     </td>
 
     {{!guideline}}
@@ -57,14 +56,14 @@
 
     {{!FDA Label PGx}}
     <td>
-      {{#if label.id}}<a href="https://www.pharmgkb.org/label/{{label.id}}">{{label.name}}</a>{{/if}}
+      {{#if label.id}}{{label.name}}{{/if}}
     </td>
 
     {{!PMIDs}}
     <td>
       {{litName}}
       <ul class="unstyled">
-        {{#each pmids}}<li><a href="https://www.pharmgkb.org/pmid/{{this}}">{{this}}</a></li>{{/each}}
+        {{#each pmids}}<li>{{this}}</li>{{/each}}
       </ul>
     </td>
   </tr>
