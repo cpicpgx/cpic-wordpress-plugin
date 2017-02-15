@@ -61,9 +61,8 @@
 
     {{!PMIDs}}
     <td>
-      {{litName}}
       <ul class="unstyled">
-        {{#each pmids}}<li>{{this}}</li>{{/each}}
+        {{#each pmids}}<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{this}}">{{this}}</a></li>{{/each}}
       </ul>
     </td>
   </tr>
