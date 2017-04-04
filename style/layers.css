@@ -1,0 +1,31 @@
+.table-bordered {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.table-bordered td{
+    border: 1px solid black;
+    padding: 10px 20px;
+}.widget_rss {
+     width: 80%;
+     padding-top: 3rem;
+ }
+.rssSummary {
+    margin-bottom:2rem;
+    padding: 0 2rem;
+}
+.announceBox {
+    background-color: rgb(217, 237, 247);
+    color: rgb(49, 112, 143);
+    padding: 15px;
+    border: 1px solid rgb(188, 232, 241);
+    border-radius: 4px;
+    margin-bottom:0;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
