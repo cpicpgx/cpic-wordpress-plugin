@@ -23,6 +23,10 @@ table.table-bordered th {
     border-color: rgba(0, 0, 0, 0.8);
 }
 
+#wpmem_login label[for='rememberme'] {
+    display: inline;
+}
+
 .widget_rss {
      width: 80%;
      padding-top: 3rem;
