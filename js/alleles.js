@@ -35,7 +35,7 @@ Handlebars.registerHelper('position', function() {
 jQuery(function($) {
 	var getData = function() {
 		var deferred = $.Deferred();
-		$.getJSON('/wp-content/uploads/2015/12/cpic.alleles.json',
+		$.getJSON('https://s3.pgkb.org/data/cpic.alleles.json',
 			function(data) {
 				data.sort(_sortByGeneAllele);
 				var cpicAlleles = Handlebars.templates.cpicAlleles(data);
