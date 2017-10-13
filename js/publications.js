@@ -23,7 +23,7 @@ jQuery(function($) {
         $('#citeTerms').html(citationMarkup);
     });
 
-    $.getJSON('https://api.pharmgkb.org/v1/cpic/publications',
+    $.getJSON('/content/publications/cpic.publications.json',
         function(data) {
             data.forEach(function(o) {
                 o.publicationSet.text = o.publicationSet.text.replace(/CPIC?\s/, '');
