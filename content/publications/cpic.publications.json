@@ -1,0 +1,1383 @@
+[
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683076",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683076,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15098242",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15098242,
+          "resourceId": "27997040",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guideline (CPIC®) for CYP2D6 and CYP2C19 Genotypes and Dosing of Tricyclic Antidepressants: 2016 Update",
+          "authors": [
+            "Kevin Hicks J",
+            "Sangkuhl Katrin",
+            "Swen Jesse J",
+            "Ellingrod Vicki L",
+            "Müller Daniel J",
+            "Shimoda Kazutaka",
+            "Bishop Jeffrey R",
+            "Kharasch Evan D",
+            "Skaar Todd C",
+            "Gaedigk Andrea",
+            "Dunnenberger Henry M",
+            "Klein Teri E",
+            "Caudle Kelly E",
+            "Stingl Julia C"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 12,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/27997040",
+          "type": "article",
+          "year": 2016
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/15051926",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15051926,
+          "resourceId": "23486447",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guideline for CYP2D6 and CYP2C19 Genotypes and Dosing of Tricyclic Antidepressants",
+          "authors": [
+            "Hicks J K",
+            "Swen J J",
+            "Thorn C F",
+            "Sangkuhl K",
+            "Kharasch E D",
+            "Ellingrod V L",
+            "Skaar T C",
+            "Müller D J",
+            "Gaedigk A",
+            "Stingl J C"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 1,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/23486447",
+          "type": "article",
+          "year": 2013
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166105006",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166105006",
+          "name": "Annotation of CPIC Guideline for amitriptyline and CYP2C19,CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166105007",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166105007",
+          "name": "Annotation of CPIC Guideline for clomipramine and CYP2C19,CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166105002",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166105002",
+          "name": "Annotation of CPIC Guideline for desipramine and CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166105000",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166105000",
+          "name": "Annotation of CPIC Guideline for doxepin and CYP2C19,CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104999",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104999",
+          "name": "Annotation of CPIC Guideline for imipramine and CYP2C19,CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104998",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104998",
+          "name": "Annotation of CPIC Guideline for nortriptyline and CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166105001",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166105001",
+          "name": "Annotation of CPIC Guideline for trimipramine and CYP2C19,CYP2D6"
+        }
+      ],
+      "text": "CPIC TCAs guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "http://cpicpgx.org/guidelines/guideline-for-tricyclic-antidepressants-and-cyp2d6-and-cyp2c19/",
+      "https://cpicpgx.org/guidelines/guideline-for-tricyclic-antidepressants-and-cyp2d6-and-cyp2c19/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683077",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683077,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15077441",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15077441,
+          "resourceId": "24918167",
+          "title": "The Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for SLCO1B1 and simvastatin-induced myopathy: 2014 update",
+          "authors": [
+            "Ramsey Laura B",
+            "Johnson Samuel G",
+            "Caudle Kelly E",
+            "Haidar Cyrine E",
+            "Voora Deepak",
+            "Wilke Russell A",
+            "Maxwell Whitney D",
+            "McLeod Howard L",
+            "Krauss Ronald M",
+            "Roden Dan M",
+            "Feng Qiping",
+            "Cooper-DeHoff Rhonda M",
+            "Gong Li",
+            "Klein Teri E",
+            "Wadelius Mia",
+            "Niemi Mikko"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 6,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/24918167",
+          "type": "article",
+          "year": 2014
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/15013653",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15013653,
+          "resourceId": "22617227",
+          "title": "The Clinical Pharmacogenomics Implementation Consortium: CPIC Guideline for SLCO1B1 and Simvastatin-Induced Myopathy",
+          "authors": [
+            "Wilke R A",
+            "Ramsey L B",
+            "Johnson S G",
+            "Maxwell W D",
+            "McLeod H L",
+            "Voora D",
+            "Krauss R M",
+            "Roden D M",
+            "Feng Q",
+            "Cooper-Dehoff R M",
+            "Gong L",
+            "Klein T E",
+            "Wadelius M",
+            "Niemi M"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 5,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/22617227",
+          "type": "article",
+          "year": 2012
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166105005",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166105005",
+          "name": "Annotation of CPIC Guideline for simvastatin and SLCO1B1"
+        }
+      ],
+      "text": "CPIC simvastatin guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-simvastatin-and-slco1b1/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184654033",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184654033,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15080841",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15080841,
+          "resourceId": "25099164",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for CYP2C9 and HLA-B Genotype and Phenytoin Dosing",
+          "authors": [
+            "Caudle Kelly E",
+            "Rettie Allan E",
+            "Whirl-Carrillo Michelle",
+            "Smith Lisa H",
+            "Mintzer Scott E",
+            "Lee Ming Ta Michael",
+            "Klein Teri E",
+            "Callaghan J Thomas"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 8,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/25099164",
+          "type": "article",
+          "year": 2014
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166122806",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166122806",
+          "name": "Annotation of CPIC Guideline for phenytoin and CYP2C9,HLA-B"
+        }
+      ],
+      "text": "CPIC phenytoin guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-phenytoin-and-cyp2c9-and-hla-b/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683078",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683078,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15058235",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15058235,
+          "resourceId": "23698643",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for cytochrome P450-2C19 (CYP2C19) genotype and clopidogrel therapy: 2013 Update",
+          "authors": [
+            "Scott Stuart A",
+            "Sangkuhl Katrin",
+            "Stein C Michael",
+            "Hulot Jean-Sébastien",
+            "Mega Jessica L",
+            "Roden Dan M",
+            "Klein Teri E",
+            "Sabatine Marc S",
+            "Johnson Julie A",
+            "Shuldiner Alan R"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 5,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/23698643",
+          "type": "article",
+          "year": 2013
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/8231172",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 8231172,
+          "resourceId": "21716271",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guidelines for Cytochrome P450-2C19 (CYP2C19) Genotype and Clopidogrel Therapy",
+          "authors": [
+            "Scott S A",
+            "Sangkuhl K",
+            "Gardner E E",
+            "Stein C M",
+            "Hulot J-S",
+            "Johnson J A",
+            "Roden D M",
+            "Klein T E",
+            "Shuldiner A R"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 6,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/21716271",
+          "type": "article",
+          "year": 2011
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104948",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104948",
+          "name": "Annotation of CPIC Guideline for clopidogrel and CYP2C19"
+        }
+      ],
+      "text": "CPIC clopidogrel guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-clopidogrel-and-cyp2c19/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683079",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683079,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15098503",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15098503,
+          "resourceId": "28198005",
+          "title": "Clinical pharmacogenetics implementation consortium (cpic) guideline for pharmacogenetics-guided warfarin dosing: 2017 update",
+          "authors": [
+            "Johnson Julie A",
+            "Caudle Kelly E",
+            "Gong Li",
+            "Whirl-Carrillo Michelle",
+            "Stein C Michael",
+            "Scott Stuart A",
+            "Lee Ming Ta Michael",
+            "Gage Brian F",
+            "Kimmel Stephen E",
+            "Perera Minoli A",
+            "Anderson Jeffrey L",
+            "Pirmohamed Munir",
+            "Klein Teri E",
+            "Limdi Nita A",
+            "Cavallari Larisa H",
+            "Wadelius Mia"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 2,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/28198005",
+          "type": "article",
+          "year": 2017
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/8560040",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 8560040,
+          "resourceId": "21900891",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guidelines for CYP2C9 and VKORC1 Genotypes and Warfarin Dosing",
+          "authors": [
+            "Johnson J A",
+            "Gong L",
+            "Whirl-Carrillo M",
+            "Gage B F",
+            "Scott S A",
+            "Stein C M",
+            "Anderson J L",
+            "Kimmel S E",
+            "Lee M T M",
+            "Pirmohamed M",
+            "Wadelius M",
+            "Klein T E",
+            "Altman R B"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 9,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/21900891",
+          "type": "article",
+          "year": 2011
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104949",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104949",
+          "name": "Annotation of CPIC Guideline for warfarin and CYP2C9,CYP4F2,VKORC1"
+        }
+      ],
+      "text": "CPIC warfarin guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-warfarin-and-cyp2c9-and-vkorc1/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683080",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683080,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15099812",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15099812,
+          "resourceId": "29152729",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for Dihydropyrimidine Dehydrogenase Genotype and Fluoropyrimidine Dosing: 2017 Update",
+          "authors": [
+            "Amstutz Ursula",
+            "Henricks Linda M",
+            "Offer Steven M",
+            "Barbarino Julia",
+            "Schellens Jan H M",
+            "Swen Jesse J",
+            "Klein Teri E",
+            "McLeod Howard L",
+            "Caudle Kelly E",
+            "Diasio Robert B",
+            "Schwab Matthias"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 11,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/29152729",
+          "type": "article",
+          "year": 2017
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/15062135",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15062135,
+          "resourceId": "23988873",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guidelines for Dihydropyrimidine Dehydrogenase Genotype and Fluoropyrimidine Dosing",
+          "authors": [
+            "Caudle Kelly E",
+            "Thorn Caroline F",
+            "Klein Teri E",
+            "Swen Jesse J",
+            "McLeod Howard L",
+            "Diasio Robert B",
+            "Schwab Matthias"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 8,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/23988873",
+          "type": "article",
+          "year": 2013
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166109594",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166109594",
+          "name": "Annotation of CPIC Guideline for capecitabine and DPYD"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166122686",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166122686",
+          "name": "Annotation of CPIC Guideline for fluorouracil and DPYD"
+        }
+      ],
+      "text": "CPIC fluoropyrimidine guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-fluoropyrimidines-and-dpyd/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683081",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683081,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15070904",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15070904,
+          "resourceId": "24561393",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for HLA-B Genotype and Abacavir Dosing: 2014 update",
+          "authors": [
+            "Martin Michael A",
+            "Hoffman James M",
+            "Freimuth Robert R",
+            "Klein Teri E",
+            "Dong Betty J",
+            "Pirmohamed Munir",
+            "Hicks J Kevin",
+            "Wilkinson Mark R",
+            "Haas David W",
+            "Kroetz Deanna L"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 2,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/24561393",
+          "type": "article",
+          "year": 2014
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/14962778",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 14962778,
+          "resourceId": "22378157",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guidelines for HLA-B Genotype and Abacavir Dosing",
+          "authors": [
+            "Martin M A",
+            "Klein T E",
+            "Dong B J",
+            "Pirmohamed M",
+            "Haas D W",
+            "Kroetz D L"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 2,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/22378157",
+          "type": "article",
+          "year": 2012
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104997",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104997",
+          "name": "Annotation of CPIC Guideline for abacavir and HLA-B"
+        }
+      ],
+      "text": "CPIC abacavir guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-abacavir-and-hla-b/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683082",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683082,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15058356",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15058356,
+          "resourceId": "23695185",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for HLA-B Genotype and Carbamazepine Dosing",
+          "authors": [
+            "Leckband Susan G",
+            "Kelsoe John R",
+            "Dunnenberger H Mark",
+            "George Alfred L",
+            "Tran Eric",
+            "Berger Reisel",
+            "Müller Daniel J",
+            "Whirl-Carrillo Michelle",
+            "Caudle Kelly E",
+            "Pirmohamed Munir"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 5,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/23695185",
+          "type": "article",
+          "year": 2013
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166105008",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166105008",
+          "name": "Annotation of CPIC Guideline for carbamazepine and HLA-A,HLA-B"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166176623",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166176623",
+          "name": "Annotation of CPIC Guideline for oxcarbazepine and HLA-B"
+        }
+      ],
+      "text": "CPIC carbamazepine guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/content/guideline/publication/carbamazepine/2017/CPIC_HLA_CBZ_OXC_submitted_version.pdf",
+      "https://cpicpgx.org/guidelines/guideline-for-carbamazepine-and-hla-b/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683083",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683083,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15090607",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15090607,
+          "resourceId": "26094938",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for human leukocyte antigen B (HLA-B) genotype and allopurinol dosing: 2015 update",
+          "authors": [
+            "Saito Y",
+            "Stamp L K",
+            "Caudle K E",
+            "Hershfield M S",
+            "McDonagh E M",
+            "Callaghan J T",
+            "Tassaneeyakul W",
+            "Mushiroda T",
+            "Kamatani N",
+            "Goldspiel B R",
+            "Phillips E J",
+            "Klein T E",
+            "Lee Mtm"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 6,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/26094938",
+          "type": "article",
+          "year": 2015
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/15033427",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15033427,
+          "resourceId": "23232549",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guidelines for Human Leukocyte Antigen-B Genotype and Allopurinol Dosing",
+          "authors": [
+            "Hershfield M S",
+            "Callaghan J T",
+            "Tassaneeyakul W",
+            "Mushiroda T",
+            "Thorn C F",
+            "Klein T E",
+            "Lee M T M"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 10,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/23232549",
+          "type": "article",
+          "year": 2012
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166105003",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166105003",
+          "name": "Annotation of CPIC Guideline for allopurinol and HLA-B"
+        }
+      ],
+      "text": "CPIC allopurinol guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-allopurinol-and-hla-b/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683084",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683084,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15051187",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15051187,
+          "resourceId": "23422873",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guidelines for Thiopurine Methyltransferase Genotype and Thiopurine Dosing: 2013 Update",
+          "authors": [
+            "Relling M V",
+            "Gardner E E",
+            "Sandborn W J",
+            "Schmiegelow K",
+            "Pui C-H",
+            "Yee S W",
+            "Stein C M",
+            "Carrillo M",
+            "Evans W E",
+            "Hicks J K",
+            "Schwab M",
+            "Klein T E"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 1,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/23422873",
+          "type": "article",
+          "year": 2013
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/6690400",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 6690400,
+          "resourceId": "21270794",
+          "title": "Clinical pharmacogenetics implementation consortium guidelines for thiopurine methyltransferase genotype and thiopurine dosing",
+          "authors": [
+            "Relling M V",
+            "Gardner E E",
+            "Sandborn W J",
+            "Schmiegelow K",
+            "Pui C-H",
+            "Yee S W",
+            "Stein C M",
+            "Carrillo M",
+            "Evans W E",
+            "Klein T E"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 3,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/21270794",
+          "type": "article",
+          "year": 2011
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104933",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104933",
+          "name": "Annotation of CPIC Guideline for azathioprine and TPMT"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104945",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104945",
+          "name": "Annotation of CPIC Guideline for mercaptopurine and TPMT"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104965",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104965",
+          "name": "Annotation of CPIC Guideline for thioguanine and TPMT"
+        }
+      ],
+      "text": "CPIC thiopurine guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-thiopurines-and-tpmt/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683072",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683072,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15069654",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15069654,
+          "resourceId": "24458010",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for cytochrome P450 2D6 (CYP2D6) genotype and codeine therapy: 2014 Update",
+          "authors": [
+            "Crews Kristine R",
+            "Gaedigk Andrea",
+            "Dunnenberger Henry M",
+            "Leeder J Steve",
+            "Klein Teri E",
+            "Caudle Kelly E",
+            "Haidar Cyrine E",
+            "Shen Danny D",
+            "Callaghan John T",
+            "Sadhasivam Senthilkumar",
+            "Prows Cynthia A",
+            "Kharasch Evan D",
+            "Skaar Todd C"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 1,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/24458010",
+          "type": "article",
+          "year": 2014
+        },
+        {
+          "@id": "https://pharmgkb.org/literature/14821790",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 14821790,
+          "resourceId": "22205192",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for Codeine Therapy in the Context of Cytochrome P450 2D6 (CYP2D6) Genotype",
+          "authors": [
+            "Crews K R",
+            "Gaedigk A",
+            "Dunnenberger H M",
+            "Klein T E",
+            "Shen D D",
+            "Callaghan J T",
+            "Kharasch E D",
+            "Skaar T C"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 12,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/22205192",
+          "type": "article",
+          "year": 2011
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166104996",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166104996",
+          "name": "Annotation of CPIC Guideline for codeine and CYP2D6"
+        }
+      ],
+      "text": "CPIC codeine guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-codeine-and-cyp2d6/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683073",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683073,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15064565",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15064565,
+          "resourceId": "24096968",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for IFNL3 (IL28B) genotype and peginterferon alpha based regimens",
+          "authors": [
+            "Muir Andrew J",
+            "Gong Li",
+            "Johnson Samuel G",
+            "Michael Lee Ming Ta",
+            "Williams Marc S",
+            "Klein Teri E",
+            "Caudle Kelly E",
+            "Nelson David R"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 10,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/24096968",
+          "type": "article",
+          "year": 2013
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166110235",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166110235",
+          "name": "Annotation of CPIC Guideline for peginterferon alfa-2a,peginterferon alfa-2b,ribavirin and IFNL3"
+        }
+      ],
+      "text": "CPIC PEG interferon-alpha guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-peg-interferon-alpha-based-regimens-and-ifnl3/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683074",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683074,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15071319",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15071319,
+          "resourceId": "24598717",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for Ivacaftor Therapy in the Context of CFTR Genotype",
+          "authors": [
+            "Clancy John P",
+            "Johnson Samuel G",
+            "Yee Sook Wah",
+            "McDonagh Ellen M",
+            "Caudle Kelly E",
+            "Klein Teri E",
+            "Cannavo Matthew",
+            "Giacomini Kathleen M"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 3,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/24598717",
+          "type": "article",
+          "year": 2014
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166114461",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166114461",
+          "name": "Annotation of CPIC Guideline for ivacaftor and CFTR"
+        }
+      ],
+      "text": "CPIC ivacaftor guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-ivacaftor-and-cftr/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1184683075",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1184683075,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15074661",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15074661,
+          "resourceId": "24787449",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for Rasburicase Therapy in the context of G6PD Deficiency Genotype",
+          "authors": [
+            "Relling Mary V",
+            "McDonagh Ellen M",
+            "Chang Tamara",
+            "Caudle Kelly E",
+            "McLeod Howard L",
+            "Haidar Cyrine E",
+            "Klein Teri",
+            "Luzzatto Lucio"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 5,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/24787449",
+          "type": "article",
+          "year": 2014
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166119846",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166119846",
+          "name": "Annotation of CPIC Guideline for rasburicase and G6PD"
+        }
+      ],
+      "text": "CPIC rasburicase guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-rasburicase-and-g6pd/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1449154368",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1449154368,
+      "history": [
+        {
+          "id": 1449154369,
+          "date": "2017-11-21T16:15:33.120-08:00",
+          "description": "created",
+          "type": "create",
+          "version": 0
+        }
+      ],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15062135",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15062135,
+          "resourceId": "23988873",
+          "title": "Clinical Pharmacogenetics Implementation Consortium Guidelines for Dihydropyrimidine Dehydrogenase Genotype and Fluoropyrimidine Dosing",
+          "authors": [
+            "Caudle Kelly E",
+            "Thorn Caroline F",
+            "Klein Teri E",
+            "Swen Jesse J",
+            "McLeod Howard L",
+            "Diasio Robert B",
+            "Schwab Matthias"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 8,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/23988873",
+          "type": "article",
+          "year": 2013
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166122687",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166122687",
+          "name": "Annotation of CPIC Guideline for tegafur and DPYD"
+        }
+      ],
+      "text": "CPIC tegafur guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-fluoropyrimidines-and-dpyd/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1444699035",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1444699035,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15087045",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15087045,
+          "resourceId": "25801146",
+          "title": "Clinical pharmacogenetics implementation consortium (CPIC) guidelines for CYP3A5 genotype and tacrolimus dosing",
+          "authors": [
+            "Birdwell Kelly A",
+            "Decker Brian",
+            "Barbarino Julia M",
+            "Peterson Josh F",
+            "Stein C Michael",
+            "Sadee Wolfgang",
+            "Wang Danxin",
+            "Vinks Alexander A",
+            "He Yijing",
+            "Swen Jesse J",
+            "Leeder J Steven",
+            "van Schaik R H N",
+            "Thummel Kenneth E",
+            "Klein Teri E",
+            "Caudle Kelly E",
+            "MacPhee Iain A M"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 3,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/25801146",
+          "type": "article",
+          "year": 2015
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166124619",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166124619",
+          "name": "Annotation of CPIC Guideline for tacrolimus and CYP3A5"
+        }
+      ],
+      "text": "CPIC tacrolimus guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-tacrolimus-and-cyp3a5/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1446902988",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1446902988,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15093021",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15093021,
+          "resourceId": "26417955",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for UGT1A1 and Atazanavir Prescribing",
+          "authors": [
+            "Gammal Roseann S",
+            "Court Michael H",
+            "Haidar Cyrine E",
+            "Iwuchukwu Otito Frances",
+            "Gaur Aditya H",
+            "Alvarellos Maria",
+            "Guillemette Chantal",
+            "Lennox Jeffrey L",
+            "Whirl-Carrillo Michelle",
+            "Brummel Sean",
+            "Ratain Mark J",
+            "Klein Teri E",
+            "Schackman Bruce R",
+            "Caudle Kelly E",
+            "Haas David W"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 9,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/26417955",
+          "type": "article",
+          "year": 2015
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166128738",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166128738",
+          "name": "Annotation of CPIC Guideline for atazanavir and UGT1A1"
+        }
+      ],
+      "text": "CPIC atazanavir guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-atazanavir-and-ugt1a1/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1444709215",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1444709215,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15089021",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15089021,
+          "resourceId": "25974703",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6 and CYP2C19 Genotypes and Dosing of Selective Serotonin Reuptake Inhibitors",
+          "authors": [
+            "Hicks J Kevin",
+            "Bishop Jeffrey R",
+            "Sangkuhl Katrin",
+            "Müller Daniel J",
+            "Ji Yuan",
+            "Leckband Susan G",
+            "Leeder J Steven",
+            "Graham Rebecca L",
+            "Chiulli Dana L",
+            "LLerena Adrián",
+            "Skaar Todd C",
+            "Scott Stuart A",
+            "Stingl Julia C",
+            "Klein Teri E",
+            "Caudle Kelly E",
+            "Gaedigk Andrea"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 5,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/25974703",
+          "type": "article",
+          "year": 2015
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166127638",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166127638",
+          "name": "Annotation of CPIC Guideline for citalopram,escitalopram and CYP2C19"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166127637",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166127637",
+          "name": "Annotation of CPIC Guideline for fluvoxamine and CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166127636",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166127636",
+          "name": "Annotation of CPIC Guideline for paroxetine and CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166127639",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166127639",
+          "name": "Annotation of CPIC Guideline for sertraline and CYP2C19"
+        }
+      ],
+      "text": "CPIC SSRIs guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-selective-serotonin-reuptake-inhibitors-and-cyp2d6-and-cyp2c19/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1448530669",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1448530669,
+      "history": [],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15098243",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15098243,
+          "resourceId": "27981572",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC®) Guideline for CYP2C19 and Voriconazole Therapy",
+          "authors": [
+            "Moriyama Brad",
+            "Obeng Aniwaa Owusu",
+            "Barbarino Julia",
+            "Penzak Scott R",
+            "Henning Stacey A",
+            "Scott Stuart A",
+            "Agúndez José A G",
+            "Wingard John R",
+            "McLeod Howard L",
+            "Klein Teri E",
+            "Cross Shane",
+            "Caudle Kelly E",
+            "Walsh Thomas J"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 12,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/27981572",
+          "type": "article",
+          "year": 2016
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166161537",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166161537",
+          "name": "Annotation of CPIC Guideline for voriconazole and CYP2C19"
+        }
+      ],
+      "text": "CPIC voriconazole guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-voriconazole-and-cyp2c19/"
+    ]
+  },
+  {
+    "publicationSet": {
+      "@id": "https://pharmgkb.org/dataAnnotation/1448573557",
+      "@context": "https://api.pharmgkb.org/jsonld/dataAnnotation.jsonld",
+      "id": 1448573557,
+      "history": [
+        {
+          "id": 1448573558,
+          "date": "2017-02-01T13:07:05.914-08:00",
+          "description": "created",
+          "type": "create",
+          "version": 0
+        }
+      ],
+      "literature": [
+        {
+          "@id": "https://pharmgkb.org/literature/15098241",
+          "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+          "id": 15098241,
+          "resourceId": "28002639",
+          "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6 Genotype and Use of Ondansetron and Tropisetron",
+          "authors": [
+            "Bell Gillian C",
+            "Caudle Kelly E",
+            "Whirl-Carrillo Michelle",
+            "Gordon Ronald J",
+            "Hikino Keiko",
+            "Prows Cynthia A",
+            "Gaedigk Andrea",
+            "Agundez Jose A G",
+            "Sadhasivam Senthilkumar",
+            "Klein Teri E",
+            "Schwab Matthias"
+          ],
+          "journal": "Clinical pharmacology and therapeutics",
+          "month": 12,
+          "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/28002639",
+          "type": "article",
+          "year": 2016
+        }
+      ],
+      "sources": [
+        "Clinical Pharmacogenetics Implementation Consortium"
+      ],
+      "targets": [
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166161954",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166161954",
+          "name": "Annotation of CPIC Guideline for ondansetron and CYP2D6"
+        },
+        {
+          "@id": "https://pharmgkb.org/guideline/PA166161955",
+          "@context": "https://api.pharmgkb.org/jsonld/guideline.jsonld",
+          "objCls": "Guideline",
+          "id": "PA166161955",
+          "name": "Annotation of CPIC Guideline for tropisetron and CYP2D6"
+        }
+      ],
+      "text": "CPIC Ondansetron Guideline",
+      "type": "publicationSet"
+    },
+    "guidelinePages": [
+      "https://cpicpgx.org/guidelines/guideline-for-ondansetron-and-tropisetron-and-cyp2d6-genotype/"
+    ]
+  }
+]

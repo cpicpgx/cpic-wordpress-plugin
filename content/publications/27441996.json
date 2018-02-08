@@ -1,0 +1,27 @@
+{
+  "@id": "https://pharmgkb.org/literature/15097680",
+  "@context": "https://api.pharmgkb.org/jsonld/literature.jsonld",
+  "id": 15097680,
+  "resourceId": "27441996",
+  "title": "Standardizing terms for clinical pharmacogenetic test results: consensus terms from the Clinical Pharmacogenetics Implementation Consortium (CPIC)",
+  "authors": [
+    "Caudle Kelly E",
+    "Dunnenberger Henry M",
+    "Freimuth Robert R",
+    "Peterson Josh F",
+    "Burlison Jonathan D",
+    "Whirl-Carrillo Michelle",
+    "Scott Stuart A",
+    "Rehm Heidi L",
+    "Williams Marc S",
+    "Klein Teri E",
+    "Relling Mary V",
+    "Hoffman James M"
+  ],
+  "journal": "Genetics in medicine : official journal of the American College of Medical Genetics",
+  "month": 7,
+  "pubDate": "2016-07-01T00:00:00-07:00",
+  "sameAs": "https://www.ncbi.nlm.nih.gov/pubmed/27441996",
+  "type": "article",
+  "year": 2016
+}

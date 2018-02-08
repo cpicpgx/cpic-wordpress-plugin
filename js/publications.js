@@ -8,17 +8,17 @@ Handlebars.registerHelper('position', function() {
 });
 
 jQuery(function($) {
-    $.getJSON('/wp-content/uploads/2015/12/21270786.json', function(data) {
+    $.getJSON('/content/publications/21270786.json', function(data) {
         var citationMarkup = Handlebars.templates.citation(data);
         $('#citeMain').html(citationMarkup);
     });
 
-    $.getJSON('/wp-content/uploads/2015/12/24479687.json', function(data) {
+    $.getJSON('/content/publications/24479687.json', function(data) {
         var citationMarkup = Handlebars.templates.citation(data);
         $('#citeSecond').html(citationMarkup);
     });
 
-    $.getJSON('https://api.pharmgkb.org/v1/data/literature/15097680', function(data) {
+    $.getJSON('/content/publications/27441996.json', function(data) {
         var citationMarkup = Handlebars.templates.citation(data);
         $('#citeTerms').html(citationMarkup);
     });
