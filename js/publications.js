@@ -1,5 +1,5 @@
 var _sortByName = function(o1, o2) {
-    return o1.publicationSet.text.localeCompare(o2.publicationSet.text);
+    return o1.name.localeCompare(o2.name);
 };
 
 var _positionCounter = 1;
@@ -8,25 +8,24 @@ Handlebars.registerHelper('position', function() {
 });
 
 jQuery(function($) {
-    $.getJSON('/content/publications/21270786.json', function(data) {
-        var citationMarkup = Handlebars.templates.citation(data);
-        $('#citeMain').html(citationMarkup);
+    $.getJSON('https://api.cpicpgx.org/v1/publication?pmid=eq.21270786', function(data) {
+      if (data && data.length === 1) {
+        $('#citeMain').html(Handlebars.templates.publication(data[0]));
+      }
     });
 
-    $.getJSON('/content/publications/24479687.json', function(data) {
-        var citationMarkup = Handlebars.templates.citation(data);
-        $('#citeSecond').html(citationMarkup);
+    $.getJSON('https://api.cpicpgx.org/v1/publication?pmid=eq.24479687', function(data) {
+        $('#citeSecond').html(Handlebars.templates.publication(data[0]));
     });
 
-    $.getJSON('/content/publications/27441996.json', function(data) {
-        var citationMarkup = Handlebars.templates.citation(data);
-        $('#citeTerms').html(citationMarkup);
+    $.getJSON('https://api.cpicpgx.org/v1/publication?pmid=eq.27441996', function(data) {
+        $('#citeTerms').html(Handlebars.templates.publication(data[0]));
     });
 
-    $.getJSON('/content/publications/cpic.publications.json',
+    $.getJSON('https://api.cpicpgx.org/v1/guideline?select=id,name,url,publication(*)',
         function(data) {
             data.forEach(function(o) {
-                o.publicationSet.text = o.publicationSet.text.replace(/CPIC?\s/, '');
+                o.name = o.name.replace(/CPIC?\s/, '');
             });
 
             data.sort(_sortByName);
