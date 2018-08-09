@@ -9,12 +9,10 @@
     <tbody>
     {{#each this}}
     <tr>
-        <td>{{#each relatedChemicals}}<div>{{name}}</div>{{/each}}</td>
-        <td>{{#each relatedGenes}}<div>{{symbol}}</div>{{/each}}</td>
+        <td>{{#each drug}}<div>{{this}}</div>{{/each}}</td>
+        <td>{{#each gene}}<div>{{this}}</div>{{/each}}</td>
         <td>
-            {{#each xrefs}}
-            <p><em><a href="{{_url}}">guideline</a></em></p>
-            {{/each}}
+            <p><em><a href="{{url}}">guideline</a></em></p>
         </td>
     </tr>
     {{/each}}
