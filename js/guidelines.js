@@ -10,7 +10,7 @@ jQuery(function($) {
 	};
 	var getData = function() {
 		var deferred = $.Deferred();
-		$.getJSON('https://data.cpicpgx.org/v1/guideline?select=name,url,gene(hgncid),drug(name)',
+		$.getJSON('https://api.cpicpgx.org/data/guidelines.json',
 			function(data) {
 				data.forEach(_calculateFields);
 				data.sort(_sortByName);
