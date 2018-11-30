@@ -2,7 +2,7 @@ jQuery(function($) {
   var _distinctify = function(elem, index, self) {return index === self.indexOf(elem);};
 	var _calculateFields = function(o) {
 		o.name = o.name.replace(/CPIC Dosing Guideline for/, '');
-    o['gene'] = o.gene.map(function(f){return f.hgncid;}).filter(_distinctify);
+    o['gene'] = o.gene.map(function(f){return f.symbol;}).filter(_distinctify);
     o['drug'] = o.drug.map(function(f){return f.name;}).filter(_distinctify);
 	};
 	var _sortByName = function(o1, o2) {
