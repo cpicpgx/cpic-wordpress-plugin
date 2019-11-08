@@ -25,9 +25,8 @@
   </thead>
 
   <tbody>
-  {{#if pairs}}
   {{#each pairs}}
-  <tr id="dosingguideline-{{guidelineId}}">
+  <tr id="dosingguideline-{{pairid}}">
     {{!id}}
     <td>
       {{position}}
@@ -35,44 +34,42 @@
 
     {{!gene}}
     <td>
-      {{gene.name}}
+      {{gene}}
     </td>
 
     {{!drug}}
     <td>
-      {{chemical.name}}
+      {{drugname}}
     </td>
 
     {{!guideline}}
     <td>
-      {{#if url}}<a href="{{url}}">Guideline</a>{{/if}}
+      {{#if guidelineurl}}<a href="{{guidelineurl}}">Guideline</a>{{/if}}
     </td>
 
     {{!cpic level}}
     <td>
-      {{cpicLevel}}
+      {{level}}
     </td>
 
     {{!PGKB LoE}}
     <td>
-      {{pgkbLevel}}
-      {{{cpicNote}}}
+      {{pgkbcalevel}}
     </td>
 
     {{!FDA Label PGx}}
     <td>
-      {{#if label.id}}{{label.name}}{{/if}}
+      {{pgxtesting}}
     </td>
 
     {{!PMIDs}}
     <td>
       <ul class="unstyled">
-        {{#each pmids}}<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{this}}">{{this}}</a></li>{{/each}}
+        {{#each citations}}<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{this}}">{{this}}</a></li>{{/each}}
       </ul>
     </td>
   </tr>
   {{/each}}
-  {{/if}}
   </tbody>
 
 </table>
