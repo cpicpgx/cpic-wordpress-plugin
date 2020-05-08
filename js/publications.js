@@ -22,6 +22,14 @@ jQuery(function($) {
         $('#citeTerms').html(Handlebars.templates.publication(data[0]));
     });
 
+    $.getJSON('https://api.cpicpgx.org/v1/publication?pmid=eq.27026620', function(data) {
+        $('#citeThird').html(Handlebars.templates.publication(data[0]));
+    });
+
+    $.getJSON('https://api.cpicpgx.org/v1/publication?pmid=eq.27864205', function(data) {
+        $('#citeFourth').html(Handlebars.templates.publication(data[0]));
+    });
+
     $.getJSON('https://api.cpicpgx.org/v1/guideline?select=id,name,url,publication%28%2A%29&order=name',
         function(data) {
             data.forEach(function(o) {
