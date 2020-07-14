@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/PharmGKB/cpic-wordpress-plugin#readme",
   "devDependencies": {
-    "handlebars": "^4.7.2"
+    "handlebars": "^4.7.6"
   }
 }
