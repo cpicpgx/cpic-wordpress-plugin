@@ -14,6 +14,9 @@
       CPIC <span style="white-space: nowrap;">Level</span>
     </th>
     <th>
+      CPIC Level Status
+    </th>
+    <th>
       PharmGKB Level of <span style="white-space: nowrap;">Evidence
       <a style="text-decoration: none;" href="https://www.pharmgkb.org/page/clinAnnLevels"><i class="icon-question-sign"></i></a></span>
     </th>
@@ -34,7 +37,7 @@
 
     {{!gene}}
     <td>
-      {{gene}}
+      {{genesymbol}}
     </td>
 
     {{!drug}}
@@ -49,7 +52,11 @@
 
     {{!cpic level}}
     <td>
-      {{level}}
+      {{cpiclevel}}
+    </td>
+
+    <td>
+      {{#if provisional}}Provisional{{/if}}{{#unless provisional}}Final{{/unless}}
     </td>
 
     {{!PGKB LoE}}
@@ -65,7 +72,7 @@
     {{!PMIDs}}
     <td>
       <ul class="unstyled">
-        {{#each citations}}<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{this}}">{{this}}</a></li>{{/each}}
+        {{#each pmids}}<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{this}}">{{this}}</a></li>{{/each}}
       </ul>
     </td>
   </tr>
