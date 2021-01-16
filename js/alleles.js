@@ -14,16 +14,16 @@ var _sortHapNames = function(a, b) {
 };
 
 var _sortByGeneAllele = function(a, b) {
-	var genea = a.allele.gene.symbol;
-	var geneb = b.allele.gene.symbol;
+	var genea = a.genesymbol;
+	var geneb = b.genesymbol;
 
 	var compare = genea.localeCompare(geneb);
 	if (compare !== 0) {
 		return compare;
 	}
 
-	var namea = a.allele.name;
-	var nameb = b.allele.name;
+	var namea = a.allelename;
+	var nameb = b.allelename;
 	return _sortHapNames(namea, nameb);
 };
 
@@ -35,7 +35,7 @@ Handlebars.registerHelper('position', function() {
 jQuery(function($) {
 	var getData = function() {
 		var deferred = $.Deferred();
-		$.getJSON('https://api.cpicpgx.org/data/cpic.alleles.json',
+		$.getJSON('https://api.cpicpgx.org/v1/allele_guideline?order=genesymbol,allelename',
 			function(data) {
 				data.sort(_sortByGeneAllele);
 				var cpicAlleles = Handlebars.templates.cpicAlleles(data);
