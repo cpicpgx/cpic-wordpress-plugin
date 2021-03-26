@@ -10,10 +10,10 @@
     {{#each this}}
     <tr>
         <td>
-            <p><em><a href="{{url}}">{{name}}</a></em></p>
+            <p><em><a href="{{guideline_url}}">{{guideline_name}}</a></em></p>
         </td>
-        <td>{{#each drug}}<div>{{this}}</div>{{/each}}</td>
-        <td>{{#each gene}}<div>{{this}}</div>{{/each}}</td>
+        <td>{{#each drugs}}<div>{{this}}</div>{{/each}}</td>
+        <td>{{#each genes}}<div><a href="{{url}}">{{symbol}}</a></div>{{/each}}</td>
     </tr>
     {{/each}}
     </tbody>
